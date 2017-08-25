@@ -33,12 +33,15 @@ Sign up for a GitHub education account, which will allow you to have private rep
 to free resources at many other companies as part of the program. Get details and sign up at https://education.github.com/pack.
 
 ## Hello Professor application
-1) Create a new project. For the type of project, under "Console" pick "Simple executable (g++)." Name the project "Lab1" and check the box
+1) Accept the assignment. Got to https://classroom.github.com/a/f68vNb6M and accept the assignment. This will create a private GitHub repository where you can work on the assignment. Copy the URL of the repository to your clipboard.
+2) Clone the repository to your workspace. In CodeLight there is a tab at the bottom for "Git." Click this tab, then click the icon at the far left "Clone a Git Repository." Paste in the URL for your repository into "Clone URL," adding ".git" at the end if it isn't already there. Browse for the "Target Directory" and select your CodeLight workspace (typically "files/csc319" unless you picked something else).
+3) Switch CodeLight to use the Git Repository. Click the icon on the far right "Set repository path" and then browse to the Lab 1 repository, something like "files/csc319/lab-1-username."
+4) Create a new project. For the type of project, under "Console" pick "Simple executable (g++)." Name the project "Lab1" and check the box
 for "Create the project under a separate directory." The default values for the toolchain should be correct.
-2) You need to tweak the compiler settings. CodeLite provides a project browser in a pane on the left. 
+5) You need to tweak the compiler settings. CodeLite provides a project browser in a pane on the left. 
 Right-click the name of the project ("Lab1") and choose "Settings" and then "Global Settings."
 - C++ Compiler Options: Click the "..." on the right and choose: -Wall, -std=c++11, -O0, -g, -pedantic-errors.
 - C Compiler Options: -Wall, -std=c99, -O0, -g, -pedantic-errors.
-3) Link your project to Git. Click the "Git" tab at the bottom of the window. 
-3) Build the sample application. CodeLite made a basic "Hello World" application for you. To compile it and run it,click "Run" in the "Build" menu.
-4) Replace the application code. Click the ">" to the left of the project name. Navigate into "src" and click on "main.cpp." Replace the sample C code with proper C++ code.
+6) Link your project to Git. Click the "Git" tab at the bottom of the window. 
+7) Build the sample application. CodeLite made a basic "Hello World" application for you. To compile it and run it,click "Run" in the "Build" menu.
+8) Replace the application code. Click the ">" to the left of the project name. Navigate into "src" and click on "main.cpp." Replace the sample C code with proper C++ code.
